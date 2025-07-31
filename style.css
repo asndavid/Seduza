@@ -1,0 +1,21 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #1c0f24;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #8b005d;
+    padding: 20px;
+    text-align: center;
+}
+.intro, .contact {
+    padding: 20px;
+}
+footer {
+    background: #2e003e;
+    text-align: center;
+    padding: 10px;
+}
