@@ -1,21 +1,45 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #1c0f24;
-    color: white;
     margin: 0;
     padding: 0;
+    background: #1a1a1a;
+    color: #fff;
 }
-header {
-    background: #8b005d;
+header, footer {
+    text-align: center;
     padding: 20px;
+    background-color: #330033;
+}
+h1 {
+    margin: 0;
+    color: #ff66cc;
+}
+.profile {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
     text-align: center;
 }
-.intro, .contact {
-    padding: 20px;
+.profile img {
+    max-width: 100%;
+    border-radius: 10px;
 }
-footer {
-    background: #2e003e;
-    text-align: center;
-    padding: 10px;
+.rates {
+    list-style: none;
+    padding: 0;
+}
+.rates li {
+    margin: 5px 0;
+}
+.contact-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #ff66cc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
 }
